@@ -1,12 +1,12 @@
 body {
-  font-family: Calibri, Arial, sans-serif;
+  font-family: "Lato", "Calibri", Arial, sans-serif;
   font-size: 1em;
 }
 
 .header {
   font-size: 3em;
   padding: 15px 15px 15px 0px;
-  border-bottom: solid 4px #ddd;
+  border-bottom: solid 1px #ddd;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -14,23 +14,33 @@ body {
   color: #47a3da;
 }
 
+.headerText {
+  display: inline;
+}
+
 .content {
   padding: 15px;
-  border: solid 4px red;
+  /*border: solid 1px red;*/
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5;
   color: #888;
 }
 
-.arrow {
-  color: darkblue;
-  display: inline;
+.content-clicked {
+  display: none;
 }
 
-.headerText {
+.arrow {
+  color: darkblue;
+  border: solid 1px green;
   display: inline;
+  color: #ddd;
+}
+
+.arrow-clicked {
+
 }

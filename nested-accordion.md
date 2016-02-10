@@ -1,6 +1,7 @@
 Answer these questions in the .md file about the Nested Accordion demo:
 
 What does it do?
+  
 What interactive elements exist?
   The arrow beside each heading.
 How do you interact with them?
