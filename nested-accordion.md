@@ -17,9 +17,10 @@ Answer these questions in the .md file about the Nested Accordion demo:
   If the arrow is clicked again, the
 
 ## What existing HTML elements are changed?
-  the paragraph is changed
+  the paragraph display is changed, from either being displayed or not being displayed
 
 ## What new HTML elements are created?
-
+  No new elements are created. The fact that no new elements are being created in my version of the project, and that this question is in our homework, concerns me.
 
 ##What CSS styles are used to produce the effect?
+  Two different class names are styled with different CSS. The declaration block is exactly identical, except for display: none; for one class. 

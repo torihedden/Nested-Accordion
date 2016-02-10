@@ -69,16 +69,12 @@ body {
   color: #ddd;
 }
 
-.arrow2 {
+/*.arrow2 {
   display: inline;
   color: #ddd;
-}
+}*/
 
 i:hover {
   transform: rotateZ(45deg);
   color: #47a3da;
-}
-
-.placeholder {
-  border: solid 2px red;
 }
