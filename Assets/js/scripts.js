@@ -1,5 +1,5 @@
 
-
+//don't do the accordion one piece at a time like this. manually opening and closing each piece one by one.
 
 var arrowClicked = document.querySelector(".arrow");
 var contentParagraph = document.querySelector(".content");
@@ -25,6 +25,15 @@ arrowClicked2.addEventListener("click", function (){
     contentParagraph2.className="content2"}
 });
 
+var arrowClicked3 = document.querySelector(".arrow3");
+var contentParagraph3 = document.querySelector(".content3");
+
+arrowClicked3.addEventListener("click", function (){
+  if (contentParagraph3.className ===("content3")){
+    contentParagraph3.className="content-clicked3";
+  } else if (contentParagraph3.className===("content-clicked3")){
+    contentParagraph3.className="content3"}
+});
 
 // var arrowList = document.getElementsByClassName(".arrow");
 // var contentList = document.getElementsByClassName(".content");

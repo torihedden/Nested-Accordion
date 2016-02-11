@@ -43,6 +43,42 @@ body {
   display: none;
 }
 
+.content3 {
+  padding: 15px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #888;
+  display: none;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 15px;
+  color: #47a3da;
+  display: inline;
+}
+
+i {
+  display: inline;
+}
+
+.small-accordion {
+  margin-top: 20px;
+}
+
+.sub-content {
+  text-transform: none;
+  font-size: 1em;
+  color: #888;
+  padding: 10px 0px 10px 0px;
+}
+
+
 .content-clicked {
   padding: 15px;
   width: 80%;
@@ -65,12 +101,28 @@ body {
   color: #888;
 }
 
+.content-clicked3 {
+  padding: 15px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #888;
+}
+
 .arrow {
   display: inline;
   color: #ddd;
 }
 
 .arrow2 {
+  display: inline;
+  color: #ddd;
+}
+
+.arrow3 {
   display: inline;
   color: #ddd;
 }
