@@ -34,7 +34,6 @@ arrowClicked3.addEventListener("click", function (){
   } else if (contentParagraph3.className===("content-clicked3")){
     contentParagraph3.className="content3"}
 });
-
 // var arrowList = document.getElementsByClassName(".arrow");
 // var contentList = document.getElementsByClassName(".content");
 //
@@ -46,3 +45,12 @@ arrowClicked3.addEventListener("click", function (){
 //       contentList[i].className="content"}
 //   })
 // };
+var subArrowClicked = document.querySelector(".subarrow");
+var subContentParagraph = document.querySelector(".sub-content");
+
+subArrowClicked.addEventListener("click", function (){
+  if (subContentParagraph.className ===("sub-content")){
+    subContentParagraph.className="sub-content-clicked";
+  } else if (subContentParagraph.className===("sub-content-clicked")){
+    subContentParagraph.className="sub-content"}
+});

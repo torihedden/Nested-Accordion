@@ -76,6 +76,14 @@ i {
   font-size: 1em;
   color: #888;
   padding: 10px 0px 10px 0px;
+  display: none;
+}
+
+.sub-content-clicked {
+  text-transform: none;
+  font-size: 1em;
+  color: #888;
+  padding: 10px 0px 10px 0px;
 }
 
 
