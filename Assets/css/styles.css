@@ -5,19 +5,9 @@ body {
 
 .header {
   font-size: 3em;
-  padding: 15px 15px 15px 0px;
+  padding: 45px 15px 15px 0px;
   border-bottom: solid 1px #ddd;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: left;
-  color: #47a3da;
-}
-
-.header2 {
-  font-size: 3em;
-  padding: 15px 15px 15px 0px;
-  border-bottom: solid 1px #ddd;
+  margin-bottom: 15px;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -41,6 +31,18 @@ body {
   display: none;
 }
 
+.content2 {
+  padding: 15px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #888;
+  display: none;
+}
+
 .content-clicked {
   padding: 15px;
   width: 80%;
@@ -52,7 +54,7 @@ body {
   color: #888;
 }
 
-.content2 {
+.content-clicked2 {
   padding: 15px;
   width: 80%;
   margin-left: 10%;
@@ -61,7 +63,6 @@ body {
   font-size: 1.25em;
   line-height: 1.5;
   color: #888;
-  /*display: none;*/
 }
 
 .arrow {
@@ -69,10 +70,10 @@ body {
   color: #ddd;
 }
 
-/*.arrow2 {
+.arrow2 {
   display: inline;
   color: #ddd;
-}*/
+}
 
 i:hover {
   transform: rotateZ(45deg);
