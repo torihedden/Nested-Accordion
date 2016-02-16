@@ -7,8 +7,8 @@ $(document).ready(function(){
     //now i just removed that .removeClass and it still works. weird.
     //.toggle() by default will toggle display attributes of the targeted element.
     //but I need to keep toggling that CSS class to maintain the styling I applied to the text
-    $("i").toggleClass("arrow-down");
-    console.log($(this).next());
+    $($(this).find("i")).toggleClass("arrow-down");
+    //now only the arrow of the header you clicked on will rotate and change color. it reverses, too, on the next click.
   });
 
 });
