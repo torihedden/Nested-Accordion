@@ -80,3 +80,7 @@ i:hover {
   transform: rotateZ(45deg);
   color: #47a3da;
 }
+
+.content-wrapper {
+  border: solid 2px black;
+}

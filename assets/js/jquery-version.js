@@ -7,6 +7,4 @@ $(document).ready(function(){
     //now i just removed that .removeClass and it still works. weird.
   });
 
-  
-
 });
