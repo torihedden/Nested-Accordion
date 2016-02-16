@@ -1,1 +1,9 @@
-//this is the jquery version
+$(document).ready(function(){
+  'use strict'
+
+  $("body").click("header", function(){
+    $()
+
+  });
+
+});
