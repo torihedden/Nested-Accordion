@@ -90,6 +90,18 @@ i:hover {
 }
 /*how do I disable this hover when the arrow is clicked down?*/
 
-.content-wrapper {
+/*.content-wrapper {
   border: solid 2px black;
+}*/
+
+.sub-header {
+  border: solid 2px black;
+}
+
+.sub-para {
+  display: none;
+}
+
+.sub-showing {
+  display: block;
 }
