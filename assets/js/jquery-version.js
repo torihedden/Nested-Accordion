@@ -9,10 +9,12 @@ $(document).ready(function(){
     //but I need to keep toggling that CSS class to maintain the styling I applied to the text
     $($(this).find("i")).toggleClass("arrow-down");
     //now only the arrow of the header you clicked on will rotate and change color. it reverses, too, on the next click.
-  });
+    });
 
     $(".sub-header").click(".sub-header", function(){
     $($(this).find(".sub-para")).toggle().addClass("sub-showing");
+
+    $($(this).find("i")).toggleClass("arrow-down");
 
   });
 
