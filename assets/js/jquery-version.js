@@ -1,8 +1,9 @@
 $(document).ready(function(){
   'use strict'
 
-  $("body").click("header", function(){
-    $()
+  $(".header").click(".content", function(){
+    // $(".content").toggleClass("content-clicked");
+    $(".content").toggle().addClass("content-clicked").removeClass("contnet");
 
   });
 
