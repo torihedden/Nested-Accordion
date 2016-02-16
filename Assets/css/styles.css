@@ -68,11 +68,19 @@ h4 {
 /*The arrow beside each "title"*/
 i {
   display: inline;
+  color: #ddd;
 }
 
+/*I targeted this icon with both an element name AND class, because I wasn't sure which ones to use*/
 .arrow {
   display: inline;
   color: #ddd;
+}
+
+.arrow-down {
+  display: inline;
+  transform: rotateZ(90deg);
+  color: #47a3da;
 }
 
 /*When hovered over, each icon will rotate down and turn blue*/
