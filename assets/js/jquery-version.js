@@ -8,7 +8,7 @@ $(document).ready(function(){
     //.toggle() by default will toggle display attributes of the targeted element.
     //but I need to keep toggling that CSS class to maintain the styling I applied to the text
     console.log(this.children);
-    $("i").toggle().addClass("arrow-down");
+    $("i").toggleClass("arrow-down");
   });
 
 });

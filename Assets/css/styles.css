@@ -88,6 +88,7 @@ i:hover {
   transform: rotateZ(45deg);
   color: #47a3da;
 }
+/*how do I disable this hover when the arrow is clicked down?*/
 
 .content-wrapper {
   border: solid 2px black;
