@@ -90,12 +90,11 @@ i:hover {
 }
 /*how do I disable this hover when the arrow is clicked down?*/
 
-/*.content-wrapper {
-  border: solid 2px black;
-}*/
 
+/*The sub-accordions within each larger accordion*/
 .sub-header {
-  border: solid 2px black;
+  /*border: solid 2px black;*/
+  /*used for troubleshooting purposes*/
 }
 
 .sub-para {
