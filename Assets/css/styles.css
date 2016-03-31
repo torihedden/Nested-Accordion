@@ -3,7 +3,7 @@ body {
   font-size: 1em;
 }
 
-/*Header of each "article"*/
+/* Header of each "article" */
 .header {
   font-size: 3em;
   padding: 45px 15px 15px 0px;
@@ -20,12 +20,12 @@ body {
   display: inline;
 }
 
-/*The default state of each "article"*/
+/* The default state of each "article" under the headers */
 .content {
   display: none;
 }
 
-/*The added class name to "reveal" the "article" when the .header is clicked*/
+/* The added class name to "reveal" the "article" when the .header is clicked */
 .content-clicked {
   padding: 15px;
   width: 80%;
@@ -38,7 +38,7 @@ body {
   display:block;
 }
 
-/*Styles the sub-accordions w/in the "article" content*/
+/* Styles the sub-accordions w/in the "article" content */
 h4 {
   text-transform: uppercase;
   font-size: 1em;
@@ -66,13 +66,12 @@ h4 {
   margin-top: 20px;
 }
 
-/*The arrow beside each "title"*/
+/* The arrow beside each "title" */
 i {
   display: inline;
   color: #ddd;
 }
 
-/*I targeted this icon with both an element name AND class, because I wasn't sure which ones to use*/
 .arrow {
   display: inline;
   color: #ddd;
@@ -83,19 +82,14 @@ i {
   color: #47a3da;
 }
 
-/*When hovered over, each icon will rotate down and turn blue*/
+/* When hovered over, each icon will rotate down and turn blue. This applies to main AND sub-content */
 i:hover {
   transform: rotateZ(45deg);
   color: #47a3da;
 }
-/*how do I disable this hover when the arrow is clicked down?*/
 
 
-/*The sub-accordions within each larger accordion*/
-.sub-header {
-  /*border: solid 2px black;*/
-  /*used for troubleshooting purposes*/
-}
+/* The sub-accordions within each larger accordion */
 
 .sub-para {
   display: none;
