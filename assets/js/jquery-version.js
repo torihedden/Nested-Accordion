@@ -9,6 +9,8 @@ $(document).ready(function(){
     $(".content-clicked").removeClass("content-clicked");
     //removing the content-clicked class from every element first means I won't have to check if it has that class. Then, I add the class content-clicked to THIS one.
 
+
+
     if (lastClicked[0] !== $(this).next()[0]){
       $($(this).next()).toggleClass("content-clicked");
     }
@@ -24,6 +26,11 @@ $(document).ready(function(){
                                             //IF so, remove that class, or set display to none
 
     }); //close main header event listener
+
+    // if ($(".content-clicked").length === 0) {
+    //   $("i").removeClass("arrow-down");
+    //   console.log('yo')
+    // }
 
   $(".sub-header").click(".sub-header", function(){
 

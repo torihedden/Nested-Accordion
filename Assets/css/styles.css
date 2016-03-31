@@ -3,6 +3,14 @@ body {
   font-size: 1em;
 }
 
+h2 {
+  font-family: "Bitter", serif;
+  font-size: 4em;
+  color: #23516D;
+  text-align: center;
+  margin-top: 3%;
+}
+
 /* Header of each "article" */
 .header {
   font-size: 3em;
@@ -93,6 +101,7 @@ i:hover {
 
 .sub-para {
   display: none;
+  margin-left: 40px;
 }
 
 .sub-showing {
